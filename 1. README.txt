@@ -1,0 +1,27 @@
+This is a Snake Game.
+1.A snake moves on the screen and eats food which is a blue dot.
+2.Use Arrow keys to move the snake.
+3.If the snake eats a blue dot then score is increased by one.
+4.The highest score of all your past games is also recorded and stored in data.txt file.
+5.If your snake collides with its tail or with the wall(i.e. the end of the screen) then it's game over and new game starts.
+6.If your game's score was bigger than the previous high score then the high score is updated with the new bigger score.
+
+How to play directly?
+I have provided an executable file in this folder.Double Click on the 'main.exe' file present in this folder and your game starts.
+To exit the game click on the cross button on the top right-hand corner.
+
+Code:
+To view the code, you can open this folder(i.e. 'Abhinav Srivastava Section 15 Snake Game ') in Visual Studio Code.
+To do so :Right click on the folder and click 'Open with Code'.
+The code is divided into 4 files namely : main.py,food.py,scoreboard.py,snake.py. The data.txt file stores the high score using File handling.
+
+How to play this game in Visual Studio Code?
+1.Open this folder in VS Code as stated above.
+2.Open main.py file and Click on Run Code button on the top right corner.(Note: Open the whole folder and not just one file in VSCode otherwise error will be thrown.)
+
+Requirements:Python should be installed on your computer alongwith with an IDE to run the code for eg. VSCode. No other requirements except these are required since all the imports in this 
+project's code come pre-installed with Python's standard library. So if you have Python installed on your system and have an IDE like VSCode then you are ready to go.
+
+Note:
+You can also change the High Score by tapping into the data.txt file and writing any high score (say 3) and saving it.
+
